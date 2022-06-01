@@ -4,4 +4,4 @@ preco = float(input('Digite o valor do produto: '))
 
 desconto = preco * 0.95
 
-print('O produto com desconto ficara: {}'.format(desconto))
+print('O produto com desconto ficara: {:.2f}'.format(desconto))
